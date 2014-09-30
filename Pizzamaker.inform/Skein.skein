@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x3a41f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1a2d40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x6bdc290" />
-  <item nodeId="node-0x3a41f0">
+  <activeNode nodeId="node-0x32dbd0" />
+  <item nodeId="node-0x1a2d40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -19,37 +19,46 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="26">NO</temporary>
+    <temporary score="4">NO</temporary>
     <children>
-      <child nodeId="node-0xed848d0" />
-      <child nodeId="node-0x1f9020" />
-      <child nodeId="node-0x3a4240" />
-      <child nodeId="node-0x3133a0" />
-      <child nodeId="node-0x6b8f700" />
+      <child nodeId="node-0x1bbaa0" />
+      <child nodeId="node-0x1bb800" />
+      <child nodeId="node-0x1bb8b0" />
+      <child nodeId="node-0x1a2e30" />
+      <child nodeId="node-0x1a2d90" />
     </children>
   </item>
-  <item nodeId="node-0x6b8f700">
+  <item nodeId="node-0x1a2d90">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">The box is about the size of a mini fridge. It&apos;s made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x6bb0380" />
+      <child nodeId="node-0x1a2de0" />
     </children>
   </item>
-  <item nodeId="node-0x6bb0380">
+  <item nodeId="node-0x1a2de0">
     <command xml:space="preserve">open box</command>
-    <result xml:space="preserve">Oregano, Basil, Pepper, Etc...
+    <result xml:space="preserve">Inside the box are five clear jars each filled with a gourmet spice. The jars are arranged in alphabetical order: Basil, Cornmeal, Garlic, Oregano, and Salt.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="22">YES</temporary>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x32dbd0" />
+    </children>
   </item>
-  <item nodeId="node-0x3133a0">
+  <item nodeId="node-0x32dbd0">
+    <command xml:space="preserve">take box</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x1a2e30">
     <command xml:space="preserve">x countertop</command>
     <result xml:space="preserve">The countertop is made of shiny black marble covered in flour. A large box of spices is placed on the countertop.
 
@@ -58,10 +67,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x6be34c0" />
+      <child nodeId="node-0x1bb690" />
     </children>
   </item>
-  <item nodeId="node-0x6be34c0">
+  <item nodeId="node-0x1bb690">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Kitchen
 Despite being one of the best pizza makers in the country, your kitchen is quite humble. You see a countertop dusted with flour, a box filled with spices, and your fridge. 
@@ -71,10 +80,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x6bfbec0" />
+      <child nodeId="node-0x1bb700" />
     </children>
   </item>
-  <item nodeId="node-0x6bfbec0">
+  <item nodeId="node-0x1bb700">
     <command xml:space="preserve">x box of spices</command>
     <result xml:space="preserve">Spices descripition.
 
@@ -83,10 +92,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x6b41280" />
+      <child nodeId="node-0x1bb770" />
     </children>
   </item>
-  <item nodeId="node-0x6b41280">
+  <item nodeId="node-0x1bb770">
     <command xml:space="preserve">x countertop</command>
     <result xml:space="preserve">The countertop is made of shiny black marble covered in flour. A large box of spices is placed on the countertop.
 
@@ -95,10 +104,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x6bb4620" />
+      <child nodeId="node-0x1bb860" />
     </children>
   </item>
-  <item nodeId="node-0x6bb4620">
+  <item nodeId="node-0x1bb860">
     <command xml:space="preserve">x box of spices</command>
     <result xml:space="preserve">Spices descripition.
 
@@ -107,7 +116,7 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x3a4240">
+  <item nodeId="node-0x1bb8b0">
     <command xml:space="preserve">x player</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -116,10 +125,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x34d730" />
+      <child nodeId="node-0x1bb900" />
     </children>
   </item>
-  <item nodeId="node-0x34d730">
+  <item nodeId="node-0x1bb900">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You&apos;re the great-grandson of Raffaele Esposito, the man who many say created pizza.
 
@@ -128,10 +137,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x34d780" />
+      <child nodeId="node-0x1bb970" />
     </children>
   </item>
-  <item nodeId="node-0x34d780">
+  <item nodeId="node-0x1bb970">
     <command xml:space="preserve">x the player</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -140,10 +149,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x34d7d0" />
+      <child nodeId="node-0x1bb9e0" />
     </children>
   </item>
-  <item nodeId="node-0x34d7d0">
+  <item nodeId="node-0x1bb9e0">
     <command xml:space="preserve">describe self</command>
     <result xml:space="preserve">You&apos;re the great-grandson of Raffaele Esposito, the man who many say created pizza.
 
@@ -152,16 +161,16 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x3a1260" />
+      <child nodeId="node-0x1bbb10" />
     </children>
   </item>
-  <item nodeId="node-0x3a1260">
+  <item nodeId="node-0x1bbb10">
     <command xml:space="preserve">describe the player</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x1f9020">
+  <item nodeId="node-0x1bb800">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -172,10 +181,10 @@ Store description.
     <changed>NO</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x6bc3af0" />
+      <child nodeId="node-0x1bbb80" />
     </children>
   </item>
-  <item nodeId="node-0x6bc3af0">
+  <item nodeId="node-0x1bbb80">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Dining Room
@@ -186,10 +195,10 @@ Dining room description.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0xce5e900" />
+      <child nodeId="node-0x1bbbf0" />
     </children>
   </item>
-  <item nodeId="node-0xce5e900">
+  <item nodeId="node-0x1bbbf0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Kitchen
@@ -200,11 +209,11 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x6bf3bd0" />
-      <child nodeId="node-0x328ea0" />
+      <child nodeId="node-0x1bba50" />
+      <child nodeId="node-0x1bbc60" />
     </children>
   </item>
-  <item nodeId="node-0x328ea0">
+  <item nodeId="node-0x1bbc60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -215,10 +224,10 @@ Bedroom description.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x3dd1f0" />
+      <child nodeId="node-0x1bbcd0" />
     </children>
   </item>
-  <item nodeId="node-0x3dd1f0">
+  <item nodeId="node-0x1bbcd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Kitchen
@@ -229,10 +238,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0xce760b0" />
+      <child nodeId="node-0x1bbd40" />
     </children>
   </item>
-  <item nodeId="node-0xce760b0">
+  <item nodeId="node-0x1bbd40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -243,10 +252,10 @@ Store description.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x6bfb400" />
+      <child nodeId="node-0x1bbdb0" />
     </children>
   </item>
-  <item nodeId="node-0x6bfb400">
+  <item nodeId="node-0x1bbdb0">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Bedroom
@@ -257,7 +266,7 @@ Bedroom description.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x6bf3bd0">
+  <item nodeId="node-0x1bba50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Kitchen
@@ -268,7 +277,7 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0xed848d0">
+  <item nodeId="node-0x1bbaa0">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Inside the box are five clear jars each filled with a gourmet spice. The jars are arranged in alphabetical order: Basil, Cornmeal, Garlic, Oregano, and Salt.
 
@@ -277,10 +286,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>NO</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x6bdc290" />
+      <child nodeId="node-0x1bbfa0" />
     </children>
   </item>
-  <item nodeId="node-0x6bdc290">
+  <item nodeId="node-0x1bbfa0">
     <command xml:space="preserve">take box</command>
     <played>YES</played>
     <changed>YES</changed>
