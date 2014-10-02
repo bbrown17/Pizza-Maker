@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1a2d40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x19d340" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x32dbd0" />
-  <item nodeId="node-0x1a2d40">
+  <activeNode nodeId="node-0x19d340" />
+  <item nodeId="node-0x19d340">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Mamma mia! Pesto di Beppo, the world&apos;s most famous pizza chef, is coming to your restaurant in an hour and you still haven&apos;t made the pizza you promised him.
+Mamma mia! The world&apos;s most famous pizza chef, Pesto di Beppo, is coming to your restaurant in an hour and you still haven&apos;t made the pizza you promised him. You stand in the kitchen wondering what to do. North of the kitchen is a store filled with all kinds of gourmet foods and fancy supplies. West of the kitchen is your bedroom where you sleep every night after the restaurant closes. To your east is the dining room where you take special guests to enjoy your latest creations. Behind you is the restaurant, which is closed for the weekend.
 
 Pizza Maker
 An Interactive Fiction by Brennan
-Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Kitchen
 Despite being one of the best pizza makers in the country, your kitchen is quite humble. You see a countertop dusted with flour, a box filled with spices, and your fridge. 
@@ -19,58 +19,94 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="4">NO</temporary>
+    <temporary score="55">NO</temporary>
     <children>
-      <child nodeId="node-0x1bbaa0" />
-      <child nodeId="node-0x1bb800" />
-      <child nodeId="node-0x1bb8b0" />
-      <child nodeId="node-0x1a2e30" />
-      <child nodeId="node-0x1a2d90" />
+      <child nodeId="node-0x1bb920" />
+      <child nodeId="node-0x9da20e0" />
+      <child nodeId="node-0x1bb500" />
+      <child nodeId="node-0x1bb280" />
+      <child nodeId="node-0x1bb050" />
+      <child nodeId="node-0x19d390" />
     </children>
   </item>
-  <item nodeId="node-0x1a2d90">
+  <item nodeId="node-0x19d390">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">The box is about the size of a mini fridge. It&apos;s made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x1a2de0" />
+      <child nodeId="node-0x1bafb0" />
     </children>
   </item>
-  <item nodeId="node-0x1a2de0">
+  <item nodeId="node-0x1bafb0">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Inside the box are five clear jars each filled with a gourmet spice. The jars are arranged in alphabetical order: Basil, Cornmeal, Garlic, Oregano, and Salt.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x32dbd0" />
+      <child nodeId="node-0x331560" />
+      <child nodeId="node-0x1bb000" />
     </children>
   </item>
-  <item nodeId="node-0x32dbd0">
+  <item nodeId="node-0x1bb000">
     <command xml:space="preserve">take box</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x1a2e30">
+  <item nodeId="node-0x331560">
+    <command xml:space="preserve">take basil</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a9b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a9b70">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">You&apos;d better leave the actual box in the kitchen... Pesto di Beppo will be here soon!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x32d790" />
+    </children>
+  </item>
+  <item nodeId="node-0x32d790">
     <command xml:space="preserve">x countertop</command>
     <result xml:space="preserve">The countertop is made of shiny black marble covered in flour. A large box of spices is placed on the countertop.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="19">YES</temporary>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bb050">
+    <command xml:space="preserve">x countertop</command>
+    <result xml:space="preserve">The countertop is made of shiny black marble. A large box of spices is placed on the countertop.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb690" />
+      <child nodeId="node-0x21d150" />
+      <child nodeId="node-0x1bb0a0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb690">
+  <item nodeId="node-0x1bb0a0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Kitchen
 Despite being one of the best pizza makers in the country, your kitchen is quite humble. You see a countertop dusted with flour, a box filled with spices, and your fridge. 
@@ -80,10 +116,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb700" />
+      <child nodeId="node-0x1bb0f0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb700">
+  <item nodeId="node-0x1bb0f0">
     <command xml:space="preserve">x box of spices</command>
     <result xml:space="preserve">Spices descripition.
 
@@ -92,10 +128,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb770" />
+      <child nodeId="node-0x1bb1e0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb770">
+  <item nodeId="node-0x1bb1e0">
     <command xml:space="preserve">x countertop</command>
     <result xml:space="preserve">The countertop is made of shiny black marble covered in flour. A large box of spices is placed on the countertop.
 
@@ -104,10 +140,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb860" />
+      <child nodeId="node-0x1bb230" />
     </children>
   </item>
-  <item nodeId="node-0x1bb860">
+  <item nodeId="node-0x1bb230">
     <command xml:space="preserve">x box of spices</command>
     <result xml:space="preserve">Spices descripition.
 
@@ -116,7 +152,28 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb8b0">
+  <item nodeId="node-0x21d150">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">The box is about the size of an old desktop computer. It&apos;s made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x1562e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1562e0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">Oh no! You forgot that yesterday you made fifty pizzas and now the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bb280">
     <command xml:space="preserve">x player</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -125,10 +182,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb900" />
+      <child nodeId="node-0x1bb2f0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb900">
+  <item nodeId="node-0x1bb2f0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You&apos;re the great-grandson of Raffaele Esposito, the man who many say created pizza.
 
@@ -137,10 +194,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb970" />
+      <child nodeId="node-0x1bb360" />
     </children>
   </item>
-  <item nodeId="node-0x1bb970">
+  <item nodeId="node-0x1bb360">
     <command xml:space="preserve">x the player</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -149,10 +206,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb9e0" />
+      <child nodeId="node-0x1bb490" />
     </children>
   </item>
-  <item nodeId="node-0x1bb9e0">
+  <item nodeId="node-0x1bb490">
     <command xml:space="preserve">describe self</command>
     <result xml:space="preserve">You&apos;re the great-grandson of Raffaele Esposito, the man who many say created pizza.
 
@@ -161,16 +218,16 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x1bbb10" />
+      <child nodeId="node-0x1bb180" />
     </children>
   </item>
-  <item nodeId="node-0x1bbb10">
+  <item nodeId="node-0x1bb180">
     <command xml:space="preserve">describe the player</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb800">
+  <item nodeId="node-0x1bb500">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -181,10 +238,10 @@ Store description.
     <changed>NO</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bbb80" />
+      <child nodeId="node-0x1bb570" />
     </children>
   </item>
-  <item nodeId="node-0x1bbb80">
+  <item nodeId="node-0x1bb570">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Dining Room
@@ -195,10 +252,10 @@ Dining room description.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bbbf0" />
+      <child nodeId="node-0x1bb5e0" />
     </children>
   </item>
-  <item nodeId="node-0x1bbbf0">
+  <item nodeId="node-0x1bb5e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Kitchen
@@ -209,11 +266,11 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bba50" />
-      <child nodeId="node-0x1bbc60" />
+      <child nodeId="node-0x1bb420" />
+      <child nodeId="node-0x1bb650" />
     </children>
   </item>
-  <item nodeId="node-0x1bbc60">
+  <item nodeId="node-0x1bb650">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -224,10 +281,10 @@ Bedroom description.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bbcd0" />
+      <child nodeId="node-0x1bb6c0" />
     </children>
   </item>
-  <item nodeId="node-0x1bbcd0">
+  <item nodeId="node-0x1bb6c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Kitchen
@@ -238,10 +295,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bbd40" />
+      <child nodeId="node-0x1bb730" />
     </children>
   </item>
-  <item nodeId="node-0x1bbd40">
+  <item nodeId="node-0x1bb730">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -252,10 +309,10 @@ Store description.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bbdb0" />
+      <child nodeId="node-0x1bb3d0" />
     </children>
   </item>
-  <item nodeId="node-0x1bbdb0">
+  <item nodeId="node-0x1bb3d0">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Bedroom
@@ -266,7 +323,7 @@ Bedroom description.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x1bba50">
+  <item nodeId="node-0x1bb420">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Kitchen
@@ -277,22 +334,183 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x1bbaa0">
-    <command xml:space="preserve">open box</command>
-    <result xml:space="preserve">Inside the box are five clear jars each filled with a gourmet spice. The jars are arranged in alphabetical order: Basil, Cornmeal, Garlic, Oregano, and Salt.
+  <item nodeId="node-0x9da20e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="26">YES</temporary>
+    <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x1bbfa0" />
+      <child nodeId="node-0x10a86f60" />
     </children>
   </item>
-  <item nodeId="node-0x1bbfa0">
+  <item nodeId="node-0x10a86f60">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">Oh no! You completely forgot that yesterday was National Pizza Day! No wonder the kitchen is so empty! Now, the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="44">YES</temporary>
+    <children>
+      <child nodeId="node-0x27fde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x27fde0">
+    <command xml:space="preserve">x baking soda</command>
+    <result xml:space="preserve">The jar is almost filled to the top with baking soda. The only reason you have baking soda in the first place is because the new guy bought baking soda instead of baking powder.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+    <children>
+      <child nodeId="node-0x328de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x328de0">
+    <command xml:space="preserve">open baking soda</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bb920">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">Oh no! You completely forgot that yesterday was National Pizza Day! No wonder the kitchen is so empty! Now, the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0x9d36750" />
+      <child nodeId="node-0x1bb990" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb990">
     <command xml:space="preserve">take box</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x9d36750">
+    <command xml:space="preserve">x baking soda</command>
+    <result xml:space="preserve">The jar is filled to the top with baking soda. The only reason you have baking soda in the first place is because the new guy bought baking soda instead of baking powder.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0x1818c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1818c0">
+    <command xml:space="preserve">open jar</command>
+    <result xml:space="preserve">You shouldn&apos;t open the baking soda. Maybe if you keep the container closed you can return it to wherever the new guy bought it from. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0x9d049d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9d049d0">
+    <command xml:space="preserve">close jar</command>
+    <result xml:space="preserve">It isn&apos;t something you can close.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc128d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc128d0">
+    <command xml:space="preserve">take jar</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc12960" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc12960">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">The box is about the size of an old desktop computer. It&apos;s made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0x9dc12a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9dc12a0">
+    <command xml:space="preserve">open jar</command>
+    <result xml:space="preserve">You shouldn&apos;t open the baking soda. Maybe if you keep the container closed you can return it to wherever the new guy bought it from. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0x331510" />
+    </children>
+  </item>
+  <item nodeId="node-0x331510">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc58a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc58a60">
+    <command xml:space="preserve">close box</command>
+    <result xml:space="preserve">You close the large box of spices.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d36740" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d36740">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open the fridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc302e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc302e0">
+    <command xml:space="preserve">x fridge</command>
+    <result xml:space="preserve">Fridgey
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
   </item>
 </Skein>
