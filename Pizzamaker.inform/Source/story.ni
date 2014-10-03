@@ -41,25 +41,41 @@ The bottle of vinegar is scenery in the fridge. It is undescribed. The descripti
 
 The Store is north of the Kitchen. "A middle-aged man runs the store just north of the Kitchen. Since there are fewer customers today, the only things in the room besides you and the man is a table where the man has placed what he is selling and a little oven in the back."
 
-The little oven is a closed openable container in The Store. The little oven is scenery. It is undescribed. The description is "Every time you take a step towards the oven the man shoos you away. 'Leave if you're not going to buy anything!', he says. The oven is about the size of a child. It smells like tomato sauce and cheese."
+The little oven is scenery in The Store. It is undescribed. The description is "Every time you take a step towards the oven the man shoos you away. 'Leave if you're not going to buy anything!', he says. The oven is about the size of a child. It smells like tomato sauce and cheese."
 
-A middle-aged man is a man in The Store. It is undescribed. The description is "He's the kind of man that looks like a Father."
+A middle-aged man is a man in The Store. It is undescribed. The description is "He's the kind of man that looks like a Father. He's wearing a shirt that says 'Ask Me About My Daughter'"
+
+Instead of asking middle-aged man about a topic, say "The man seems distracted... He looks at you. 'Can I tell you something?' he asks. Before you can answer he starts talking. 'My daughter has this big science project due next week... it's like a big deal for her. More than anything I just want her to be happy. I really want to help her make a baking soda and vinegar volcano but I can't find baking soda anywhere. I'd give the person who could get me baking soda anything they ever wanted."
+
+	
+The pizza is carried by the middle-aged man. It is undescribed.The description is "You hate to admit it but the pizza looks better than anything you've ever made. The crust is perfectly golden brown. The cheese looks like a work of art. Pesto di Beppo would surely be impressed by this pizza."
 
 [interacting with NPC: thanks to Mrs. Kiang for the code http://informforstudents.wikispaces.com/Advanced+-+Interacting+with+NPC%27s]
 
-Instead of giving the jar of baking soda to the middle-aged man in The Store, say "nice."
+Instead of giving the jar of baking soda to the middle-aged man in The Store, say "The man smiles at you. 'Thank you so much', he says. 'This will be so helpful for my daughter's science project... Here, let me give you something'
 
-[pizza]
-The pizza is a thing in the little oven in The Store. It is undescribed.The description is "Wow, pizza!"
+The man turns and walks to the little oven in the back of the store. He opens it and pulls out a hot, delcious-looking pizza.
+
+'Here you go,' he says. 'Enjoy!'"
+
+After giving the jar of baking soda to the middle-aged man in The Store, end the story finally saying "You did it! You have the perfect pizza to give to Pesto di Beppo. A few minutes later he arrives and begins eating right away. Despite pizza being the only thing served, he didn't complain, because pizza is the only thing he ate anyway. After complimenting the amount of sauce in the pizza, Pesto hands you a check.
+
+'"
 
 [BEDROOM: Two coins (users choose what to spend on), mattress, jar of olive oil]
 
-The Bedroom is west of the Kitchen and southwest of the Store. "Bedroom description."
+The Bedroom is west of the Kitchen and southwest of the Store. "The bedroom is empty. You decided last week that it was time to move out. On the wall hangs a poster that says 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
-The Dining Room is east of the Kitchen and southeast of the Store. "Dining room description."
+The poster is scenery in The Bedroom. It is undescribed. The description is "The poster, written in large Helvetica font, reads 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
+Instead of taking the poster, say "Just leave it. You can't have everything. Did you even read the poster?"
 
-An every turn rule:
-	if the pizza is in The Kitchen:
-		say "You win!";
-		end the story finally.
+The Dining Room is east of the Kitchen and southeast of the Store. "The table is set and ready for Pesto di Beppo's arrival. Out of the corner of your eye you spot an embarrasing magazine laying on the table."
+
+The table is scenery in The Dining Room. It is undescribed. The description is "The table is made of beautiful oak wood. The utensils are perfectly set. You're scared to even breathe in this room at the risk of messing up the arrangement of the utensils. On the corner of the table is an embarrasing magazine."
+
+The set utensils are scenery on the table. It is undescribed. The description is "The utensils look like art more than something you eat with."
+
+Instead of taking the set utensils, say "You wouldn't dare to touch the utensils. You'll surely mess up how nicely they were set."
+
+The embarrasing magazine is a thing on the table. It is undescribed. The description is "The cover is blacked out but you know this magazine isn't something you'd want Pesto di Beppo to see."
