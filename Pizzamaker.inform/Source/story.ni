@@ -2,13 +2,13 @@
 
 [GOAL: Player searches kitchen, finds no means of making pizza, finds clue in bedroom, sets dining table, buys pizza from the store, sets it up and wins]
 
-When play begins, say "Mamma mia! The world's most famous pizza chef, Pesto di Beppo, is coming to your restaurant in an hour and you still haven't made the pizza you promised him. You stand in the kitchen wondering what to do. North of the kitchen is a store filled with all kinds of gourmet foods and fancy supplies. West of the kitchen is your bedroom where you sleep every night after the restaurant closes. To your east is the dining room where you take special guests to enjoy your latest creations. Behind you is the restaurant, which is closed for the weekend."
+When play begins, say "Mamma mia! The world's most famous pizza chef, Pesto di Beppo, is coming to your restaurant in an hour and you still haven't made the pizza you promised him. You stand in the kitchen wondering what to do. North of the kitchen is a store filled with all kinds of gourmet foods and fancy supplies. West of the kitchen is your bedroom where you used to sleep every night after the restaurant closed. To your east is the dining room where you take special guests to enjoy your latest creations. Behind you is the restaurant, which is closed for the weekend."
 
 The description of the player is "You are the great-grandson of Raffaele Esposito, the man who many say created pizza."
 
 [KITCHEN: Countertop, box of spices, fridge]
 
-The Kitchen is a room. "Despite being one of the best pizza makers in the country, your kitchen is quite humble. You see a countertop dusted with flour, a box filled with spices, and your fridge. "
+The Kitchen is a room. "Despite being one of the best pizza makers in the country, your kitchen is quite humble. You see a countertop dusted with flour, a box filled with spices, and your fridge."
 
 The countertop is scenery in The Kitchen. It is undescribed. The description is "The countertop is made of shiny black marble. A large box of spices is placed on the countertop."
 
@@ -52,30 +52,28 @@ The pizza is carried by the middle-aged man. It is undescribed.The description i
 
 [interacting with NPC: thanks to Mrs. Kiang for the code http://informforstudents.wikispaces.com/Advanced+-+Interacting+with+NPC%27s]
 
-Instead of giving the jar of baking soda to the middle-aged man in The Store, say "The man smiles at you. 'Thank you so much', he says. 'This will be so helpful for my daughter's science project... Here, let me give you something'
+Instead of giving the jar of baking soda to the middle-aged man in The Store: say "The man smiles at you. 'Thank you so much', he says. 'This will be so helpful for my daughter's science project... Here, let me give you something'
 
 The man turns and walks to the little oven in the back of the store. He opens it and pulls out a hot, delcious-looking pizza.
 
-'Here you go,' he says. 'Enjoy!'"
+'Here you go,' he says. 'Enjoy!'"; end the story finally saying "You did it! You have the perfect pizza to give to Pesto di Beppo. A few minutes later he arrives and begins eating right away. Despite pizza being the only thing served, he didn't complain, because pizza is the only thing he ate anyway. After complimenting the amount of sauce in the pizza, Pesto hands you a check.
 
-After giving the jar of baking soda to the middle-aged man in The Store, end the story finally saying "You did it! You have the perfect pizza to give to Pesto di Beppo. A few minutes later he arrives and begins eating right away. Despite pizza being the only thing served, he didn't complain, because pizza is the only thing he ate anyway. After complimenting the amount of sauce in the pizza, Pesto hands you a check.
-
-'"
+'This is for you', he says. 'Use it to make more pizza.' Pesto di Beppo stands up out of his seat and heads to the door before turning around. He looks at you fondly and says, 'Mama mia, my brother.'"
 
 [BEDROOM: Two coins (users choose what to spend on), mattress, jar of olive oil]
 
-The Bedroom is west of the Kitchen and southwest of the Store. "The bedroom is empty. You decided last week that it was time to move out. On the wall hangs a poster that says 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
+The Bedroom is west of the Kitchen and southwest of the Store. "The bedroom is empty. You decided last week that it was time to stop sleeping next to the kitchen and get a real apartment. On the wall hangs a poster that says 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
 The poster is scenery in The Bedroom. It is undescribed. The description is "The poster, written in large Helvetica font, reads 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
 Instead of taking the poster, say "Just leave it. You can't have everything. Did you even read the poster?"
 
-The Dining Room is east of the Kitchen and southeast of the Store. "The table is set and ready for Pesto di Beppo's arrival. Out of the corner of your eye you spot an embarrasing magazine laying on the table."
+The Dining Room is east of the Kitchen and southeast of the Store. "The table is set and ready for Pesto di Beppo's arrival. Out of the corner of your eye you spot an embarrassing magazine laying on the table."
 
-The table is scenery in The Dining Room. It is undescribed. The description is "The table is made of beautiful oak wood. The utensils are perfectly set. You're scared to even breathe in this room at the risk of messing up the arrangement of the utensils. On the corner of the table is an embarrasing magazine."
+The table is scenery in The Dining Room. It is undescribed. The description is "The table is made of beautiful oak wood. The utensils are perfectly set. You're scared to even breathe in this room at the risk of messing up the arrangement of the utensils. On the corner of the table is an embarrassing magazine."
 
 The set utensils are scenery on the table. It is undescribed. The description is "The utensils look like art more than something you eat with."
 
 Instead of taking the set utensils, say "You wouldn't dare to touch the utensils. You'll surely mess up how nicely they were set."
 
-The embarrasing magazine is a thing on the table. It is undescribed. The description is "The cover is blacked out but you know this magazine isn't something you'd want Pesto di Beppo to see."
+The embarrassing magazine is a thing on the table. It is undescribed. The description is "The cover is blacked out but you know this magazine isn't something you'd want Pesto di Beppo to see."
