@@ -1,6 +1,26 @@
 "Pizza Maker" by Brennan
 
-[GOAL: Player searches kitchen, finds no means of making pizza, finds clue in bedroom, sets dining table, buys pizza from the store, sets it up and wins]
+Release along with cover art ("A pizza and credit to Brennan Brown")
+
+[exit list code from Day for Spelling - Mr. Kiang]
+When play begins:
+now left hand status line is "Exits: [exit list]";
+now right hand status line is "[location]".
+
+To say exit list:
+	let place be location;
+	repeat with way running through directions:
+		let place be the room way from the location;
+		if place is a room, say "[way]".
+
+[attacking and going nowhere codes from Day for Spelling - Mr. Kiang]
+
+Instead of going nowhere, say "You start to head in that direction before you realize there's nothing in that direction and turn around."
+
+Instead of attacking someone:
+say "Before you can even raise a finger, the man pulls out a spatula. With a swift hand he smacks it into your face. 'Don't touch me, you moldy sack of clams!' he shouts."
+
+[GOAL: Player searches kitchen, finds no means of making pizza, finds clue in almost every room, gets pizza from the store and wins]
 
 When play begins, say "Mamma mia! The world's most famous pizza chef, Pesto di Beppo, is coming to your restaurant in an hour and you still haven't made the pizza you promised him. You stand in the kitchen wondering what to do. North of the kitchen is a store filled with all kinds of gourmet foods and fancy supplies. West of the kitchen is your bedroom where you used to sleep every night after the restaurant closed. To your east is the dining room where you take special guests to enjoy your latest creations. Behind you is the restaurant, which is closed for the weekend."
 
@@ -12,7 +32,7 @@ The Kitchen is a room. "Despite being one of the best pizza makers in the countr
 
 The countertop is scenery in The Kitchen. It is undescribed. The description is "The countertop is made of shiny black marble. A large box of spices is placed on the countertop."
 
-[box of spices]
+[BOX OF SPICES]
 
 The large box of spices is a closed openable container on the countertop. The large box of spices is scenery. It is undescribed. The description is "The box is about the size of an old desktop computer. It's made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh."
 
@@ -28,7 +48,8 @@ The jar of baking soda is a thing inside the large box of spices. It is undescri
 
 Instead of opening the jar of baking soda, say "You shouldn't open the baking soda. Maybe if you keep the container closed you can return it to wherever the new guy bought it from. "
 
-[fridge]
+[FRIDGE]
+
 The fridge is a closed openable container in The Kitchen. The fridge is scenery. It is undescribed. The description is "The fridge is black and tall. It gives off a faint hum."
 
 After opening the fridge, say "You open the fridge to find nothing of interest. Besides a bottle of 'Volcano Hot Sauce' and vinegar, everything else had already been used up the day before."		
@@ -37,17 +58,20 @@ The bottle of Volcano hot sauce is scenery in the fridge. It is undescribed. The
 
 The bottle of vinegar is scenery in the fridge. It is undescribed. The description is "A clear bottle holds vinegar inside. If it wasn't labeled, you'd probably think it was water." Instead of taking the bottle of vinegar, say "You'd better keep the vinegar refrigerated. Who knows why it's in the fridge anyway?"
 
-[STORE: Coin Pot, Table with Items]
+[STORE]
 
 The Store is north of the Kitchen. "A middle-aged man runs the store just north of the Kitchen. Since there are fewer customers today, the only things in the room besides you and the man is a table where the man has placed what he is selling and a little oven in the back."
 
 The little oven is scenery in The Store. It is undescribed. The description is "Every time you take a step towards the oven the man shoos you away. 'Leave if you're not going to buy anything!', he says. The oven is about the size of a child. It smells like tomato sauce and cheese."
 
-A middle-aged man is a man in The Store. It is undescribed. The description is "He's the kind of man that looks like a Father. He's wearing a shirt that says 'Ask Me About My Daughter'"
+[Very big thanks to Mr. Kiang. "talk to" Code is from Day for Spelling.]
+Understand "talk to [something]" as talking. Talking is an action applying to one thing.
+Instead of talking something: say "He really isn't a big fan of talking. The man loves answering questions though."
+
+A middle-aged man is a man in The Store. It is undescribed. The description is "He's the kind of man that looks like a Father. He's wearing a shirt that says 'Ask Me About My Daughter'."
 
 Instead of asking middle-aged man about a topic, say "The man seems distracted... He looks at you. 'Can I tell you something?' he asks. Before you can answer he starts talking. 'My daughter has this big science project due next week... it's like a big deal for her. More than anything I just want her to be happy. I really want to help her make a baking soda and vinegar volcano but I can't find baking soda anywhere. I'd give the person who could get me baking soda anything they ever wanted."
 
-	
 The pizza is carried by the middle-aged man. It is undescribed.The description is "You hate to admit it but the pizza looks better than anything you've ever made. The crust is perfectly golden brown. The cheese looks like a work of art. Pesto di Beppo would surely be impressed by this pizza."
 
 [interacting with NPC: thanks to Mrs. Kiang for the code http://informforstudents.wikispaces.com/Advanced+-+Interacting+with+NPC%27s]
@@ -59,8 +83,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
 'Here you go,' he says. 'Enjoy!'"; end the story finally saying "You did it! You have the perfect pizza to give to Pesto di Beppo. A few minutes later he arrives and begins eating right away. Despite pizza being the only thing served, he didn't complain, because pizza is the only thing he ate anyway. After complimenting the amount of sauce in the pizza, Pesto hands you a check.
 
 'This is for you', he says. 'Use it to make more pizza.' Pesto di Beppo stands up out of his seat and heads to the door before turning around. He looks at you fondly and says, 'Mama mia, my brother.'"
+[Huge thanks to Mr. Kiang (kiang@me.com) for helping me to code winning the game]
 
-[BEDROOM: Two coins (users choose what to spend on), mattress, jar of olive oil]
+
+[BEDROOM]
 
 The Bedroom is west of the Kitchen and southwest of the Store. "The bedroom is empty. You decided last week that it was time to stop sleeping next to the kitchen and get a real apartment. On the wall hangs a poster that says 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
@@ -77,3 +103,11 @@ The set utensils are scenery on the table. It is undescribed. The description is
 Instead of taking the set utensils, say "You wouldn't dare to touch the utensils. You'll surely mess up how nicely they were set."
 
 The embarrassing magazine is a thing on the table. It is undescribed. The description is "The cover is blacked out but you know this magazine isn't something you'd want Pesto di Beppo to see."
+
+[SHORTEST ROUTE:
+	
+> open box
+> take baking soda
+> north
+> give man baking soda]
+
