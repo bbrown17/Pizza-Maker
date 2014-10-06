@@ -48429,7 +48429,7 @@ Verb 'talk'
 
 Constant TX_PS_69 = ">";
 Constant TX_PS_48 = "A clear bottle holds vinegar inside. If it wasn't labeled, you'd probably think it was water.";
-Constant TX_PS_50 = "A middle-aged man runs the store just north of the Kitchen. Since there are fewer customers today, the only things in the room besides you and the man is a table where the man has placed what he is selling and a little oven in the back.";
+Constant TX_PS_50 = "A middle-aged man runs the store just north of the Kitchen. Since there are fewer customers today, the only thing in the room besides you and the man is a little oven in the back.";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_57 = "Bedroom";
 Constant TX_PS_4 = "Brennan";

@@ -14,7 +14,7 @@ Reading language definition from </Users/bbrown17/Desktop/Computer Science/Infor
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 1561 words long.
+I've now read your source text, which is 1549 words long.
 
 
 -----------------------------------------------------
@@ -176,7 +176,7 @@ Phase XIII ... Compilation now complete
 
 CAT "A pizza and credit to Brennan Brown"
 Total of 104 files written as streams.
-CPU time: 140 centiseconds
+CPU time: 143 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

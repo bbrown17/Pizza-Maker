@@ -73,7 +73,7 @@ The bottle of vinegar is scenery in the fridge. It is undescribed. The descripti
 
 [STORE]
 
-The Store is north of the Kitchen. "A middle-aged man runs the store just north of the Kitchen. Since there are fewer customers today, the only things in the room besides you and the man is a table where the man has placed what he is selling and a little oven in the back."
+The Store is north of the Kitchen. "A middle-aged man runs the store just north of the Kitchen. Since there are fewer customers today, the only thing in the room besides you and the man is a little oven in the back."
 
 The little oven is scenery in The Store. It is undescribed. The description is "Every time you take a step towards the oven the man shoos you away. 'Leave if you're not going to buy anything!', he says. The oven is about the size of a child. It smells like tomato sauce and cheese."
 
