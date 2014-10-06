@@ -31,6 +31,12 @@ When play begins, say "Mamma mia! The world's most famous pizza chef, Pesto di B
 
 The description of the player is "You are the great-grandson of Raffaele Esposito, the man who many say created pizza."
 
+[other names for the player]
+
+Understand "the player" as yourself. Understand "my reflection" as yourself. 
+Understand "player" as yourself. Understand "reflection" as yourself. 
+Understand "mirror" as yourself. Understand "shiny surface" as yourself. 
+
 [KITCHEN: Countertop, box of spices, fridge]
 
 The Kitchen is a room. "Despite being one of the best pizza makers in the country, your kitchen is quite humble. You see a countertop dusted with flour, a box filled with spices, and your fridge."
