@@ -22,7 +22,7 @@ Instead of going nowhere, say "You start to head in that direction before you re
 
 [non-violence]
 
-Instead of attacking someone:
+Instead of attacking the middle-aged man:
 say "Before you can even raise a finger, the man pulls out a spatula. With a swift hand he smacks it into your face. 'Don't touch me, you moldy sack of clams!' he shouts."
 
 [GOAL: Player searches kitchen, finds no means of making pizza, finds clue in almost every room, gets pizza from the store and wins]
