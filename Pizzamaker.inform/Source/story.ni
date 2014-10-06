@@ -16,6 +16,8 @@ To say exit list:
 
 [attacking and going nowhere codes from Day for Spelling - Mr. Kiang]
 
+[this alerts player that they're going the wrong way]
+
 Instead of going nowhere, say "You start to head in that direction before you realize there's nothing in that direction and turn around."
 
 [non-violence]
@@ -98,6 +100,8 @@ The Bedroom is west of the Kitchen and southwest of the Store. "The bedroom is e
 The poster is scenery in The Bedroom. It is undescribed. The description is "The poster, written in large Helvetica font, reads 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
 Instead of taking the poster, say "Just leave it. You can't have everything. Did you even read the poster?"
+
+[DINING ROOM]
 
 The Dining Room is east of the Kitchen and southeast of the Store. "The table is set and ready for Pesto di Beppo's arrival. Out of the corner of your eye you spot an embarrassing magazine laying on the table."
 

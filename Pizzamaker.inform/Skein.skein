@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x2898ae0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x33aba0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2898ae0" />
-  <item nodeId="node-0x2898ae0">
+  <activeNode nodeId="node-0x8c88fb0" />
+  <item nodeId="node-0x33aba0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,28 +11,28 @@ Mamma mia! The world&apos;s most famous pizza chef, Pesto di Beppo, is coming to
 
 Pizza Maker
 An Interactive Fiction by Brennan
-Release 1 / Serial number 141003 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141006 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Kitchen
 Despite being one of the best pizza makers in the country, your kitchen is quite humble. You see a countertop dusted with flour, a box filled with spices, and your fridge.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="24">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="5">NO</temporary>
     <children>
-      <child nodeId="node-0x28039a0" />
-      <child nodeId="node-0x2803a10" />
-      <child nodeId="node-0x2803b60" />
-      <child nodeId="node-0x2804570" />
-      <child nodeId="node-0x2804a40" />
-      <child nodeId="node-0x2804d50" />
-      <child nodeId="node-0x2804f80" />
-      <child nodeId="node-0x2898ef0" />
-      <child nodeId="node-0x2898b30" />
+      <child nodeId="node-0x32d4b0" />
+      <child nodeId="node-0x32d460" />
+      <child nodeId="node-0x32dc10" />
+      <child nodeId="node-0x32eb90" />
+      <child nodeId="node-0x32ef90" />
+      <child nodeId="node-0x32fb30" />
+      <child nodeId="node-0x338d90" />
+      <child nodeId="node-0x33ae90" />
+      <child nodeId="node-0x33ac40" />
     </children>
   </item>
-  <item nodeId="node-0x2898b30">
+  <item nodeId="node-0x33ac40">
     <command xml:space="preserve">ask about dogs</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -41,10 +41,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x2898d50" />
+      <child nodeId="node-0x33acb0" />
     </children>
   </item>
-  <item nodeId="node-0x2898d50">
+  <item nodeId="node-0x33acb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -55,10 +55,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x2898da0" />
+      <child nodeId="node-0x33ad20" />
     </children>
   </item>
-  <item nodeId="node-0x2898da0">
+  <item nodeId="node-0x33ad20">
     <command xml:space="preserve">ask about dogs</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -67,10 +67,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x2898e10" />
+      <child nodeId="node-0x33add0" />
     </children>
   </item>
-  <item nodeId="node-0x2898e10">
+  <item nodeId="node-0x33add0">
     <command xml:space="preserve">ask man about dogs</command>
     <result xml:space="preserve">He doesn&apos;t care about that. The only thing he wants to talk about is his daughter. It&apos;s kind of weird, really.
 
@@ -81,10 +81,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x2898e80" />
+      <child nodeId="node-0x33ae20" />
     </children>
   </item>
-  <item nodeId="node-0x2898e80">
+  <item nodeId="node-0x33ae20">
     <command xml:space="preserve">ask man about daughter</command>
     <result xml:space="preserve">He doesn&apos;t care about that. The only thing he wants to talk about is his daughter. It&apos;s kind of weird, really.
 
@@ -95,7 +95,7 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
   </item>
-  <item nodeId="node-0x2898ef0">
+  <item nodeId="node-0x33ae90">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Oh no! You completely forgot that yesterday was National Pizza Day! No wonder the kitchen is so empty! Now, the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
 
@@ -104,14 +104,14 @@ There is no reply.
     <changed>NO</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x28052a0" />
-      <child nodeId="node-0x2805460" />
-      <child nodeId="node-0x2805910" />
-      <child nodeId="node-0x2805980" />
-      <child nodeId="node-0x2805dd0" />
+      <child nodeId="node-0x338530" />
+      <child nodeId="node-0x3390b0" />
+      <child nodeId="node-0x338c20" />
+      <child nodeId="node-0x338bd0" />
+      <child nodeId="node-0x33af80" />
     </children>
   </item>
-  <item nodeId="node-0x2805dd0">
+  <item nodeId="node-0x33af80">
     <command xml:space="preserve">x baking soda</command>
     <result xml:space="preserve">The jar is filled to the top with baking soda. The only reason you have baking soda in the first place is because the new guy bought baking soda instead of baking powder.
 
@@ -120,10 +120,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2805d80" />
+      <child nodeId="node-0x33afd0" />
     </children>
   </item>
-  <item nodeId="node-0x2805d80">
+  <item nodeId="node-0x33afd0">
     <command xml:space="preserve">open jar</command>
     <result xml:space="preserve">You shouldn&apos;t open the baking soda. Maybe if you keep the container closed you can return it to wherever the new guy bought it from. 
 &gt;</result>
@@ -131,10 +131,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2805d30" />
+      <child nodeId="node-0x33b020" />
     </children>
   </item>
-  <item nodeId="node-0x2805d30">
+  <item nodeId="node-0x33b020">
     <command xml:space="preserve">close jar</command>
     <result xml:space="preserve">It isn&apos;t something you can close.
 
@@ -143,10 +143,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2805cc0" />
+      <child nodeId="node-0x33b090" />
     </children>
   </item>
-  <item nodeId="node-0x2805cc0">
+  <item nodeId="node-0x33b090">
     <command xml:space="preserve">take jar</command>
     <result xml:space="preserve">Taken.
 
@@ -155,10 +155,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2805c50" />
+      <child nodeId="node-0x33b100" />
     </children>
   </item>
-  <item nodeId="node-0x2805c50">
+  <item nodeId="node-0x33b100">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">The box is about the size of an old desktop computer. It&apos;s made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh.
 
@@ -167,10 +167,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2805b20" />
+      <child nodeId="node-0x33b230" />
     </children>
   </item>
-  <item nodeId="node-0x2805b20">
+  <item nodeId="node-0x33b230">
     <command xml:space="preserve">open jar</command>
     <result xml:space="preserve">You shouldn&apos;t open the baking soda. Maybe if you keep the container closed you can return it to wherever the new guy bought it from. 
 &gt;</result>
@@ -178,10 +178,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2898f80" />
+      <child nodeId="node-0x33af20" />
     </children>
   </item>
-  <item nodeId="node-0x2898f80">
+  <item nodeId="node-0x33af20">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -190,10 +190,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2805ad0" />
+      <child nodeId="node-0x33b2a0" />
     </children>
   </item>
-  <item nodeId="node-0x2805ad0">
+  <item nodeId="node-0x33b2a0">
     <command xml:space="preserve">close box</command>
     <result xml:space="preserve">You close the large box of spices.
 
@@ -202,10 +202,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2805a60" />
+      <child nodeId="node-0x33b310" />
     </children>
   </item>
-  <item nodeId="node-0x2805a60">
+  <item nodeId="node-0x33b310">
     <command xml:space="preserve">open fridge</command>
     <result xml:space="preserve">You open the fridge.
 
@@ -214,10 +214,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x28059f0" />
+      <child nodeId="node-0x338b80" />
     </children>
   </item>
-  <item nodeId="node-0x28059f0">
+  <item nodeId="node-0x338b80">
     <command xml:space="preserve">x fridge</command>
     <result xml:space="preserve">Fridgey
 
@@ -226,13 +226,13 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
   </item>
-  <item nodeId="node-0x2805980">
+  <item nodeId="node-0x338bd0">
     <command xml:space="preserve">take box</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
   </item>
-  <item nodeId="node-0x2805910">
+  <item nodeId="node-0x338c20">
     <command xml:space="preserve">take baking soda</command>
     <result xml:space="preserve">Taken.
 
@@ -241,11 +241,11 @@ There is no reply.
     <changed>NO</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x2805bd0" />
-      <child nodeId="node-0x28058a0" />
+      <child nodeId="node-0x33b170" />
+      <child nodeId="node-0x338c90" />
     </children>
   </item>
-  <item nodeId="node-0x28058a0">
+  <item nodeId="node-0x338c90">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Store
@@ -256,7 +256,7 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x2805bd0">
+  <item nodeId="node-0x33b170">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -267,11 +267,11 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x2805690" />
-      <child nodeId="node-0x2805b70" />
+      <child nodeId="node-0x338e80" />
+      <child nodeId="node-0x33b1c0" />
     </children>
   </item>
-  <item nodeId="node-0x2805b70">
+  <item nodeId="node-0x33b1c0">
     <command xml:space="preserve">give man soda</command>
     <result xml:space="preserve">The man smiles at you. &quot;Thank you so much&quot;, he says. &quot;This will be so helpful for my daughter&apos;s science project... Here, let me give you something&quot;
 
@@ -284,7 +284,7 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>NO</changed>
     <temporary score="120">YES</temporary>
   </item>
-  <item nodeId="node-0x2805690">
+  <item nodeId="node-0x338e80">
     <command xml:space="preserve">give baking soda to man</command>
     <result xml:space="preserve">The man smiles at you. &quot;Thank you so much&quot;, he says. &quot;This will be so helpful for my daughter&apos;s science project... Here, let me give you something&quot;
 
@@ -297,10 +297,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2805620" />
+      <child nodeId="node-0x338ef0" />
     </children>
   </item>
-  <item nodeId="node-0x2805620">
+  <item nodeId="node-0x338ef0">
     <command xml:space="preserve">x pizza</command>
     <result xml:space="preserve">Wow, pizza!
 
@@ -309,10 +309,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x28055b0" />
+      <child nodeId="node-0x338f60" />
     </children>
   </item>
-  <item nodeId="node-0x28055b0">
+  <item nodeId="node-0x338f60">
     <command xml:space="preserve">open oven</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
@@ -321,10 +321,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2805540" />
+      <child nodeId="node-0x338fd0" />
     </children>
   </item>
-  <item nodeId="node-0x2805540">
+  <item nodeId="node-0x338fd0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a jar of baking soda
@@ -334,10 +334,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x28054d0" />
+      <child nodeId="node-0x339040" />
     </children>
   </item>
-  <item nodeId="node-0x28054d0">
+  <item nodeId="node-0x339040">
     <command xml:space="preserve">take pizza</command>
     <result xml:space="preserve">Taken.
 
@@ -346,7 +346,7 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="95">YES</temporary>
   </item>
-  <item nodeId="node-0x2805460">
+  <item nodeId="node-0x3390b0">
     <command xml:space="preserve">take jar</command>
     <result xml:space="preserve">Taken.
 
@@ -355,10 +355,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x28053f0" />
+      <child nodeId="node-0x338400" />
     </children>
   </item>
-  <item nodeId="node-0x28053f0">
+  <item nodeId="node-0x338400">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -369,10 +369,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2805380" />
+      <child nodeId="node-0x338450" />
     </children>
   </item>
-  <item nodeId="node-0x2805380">
+  <item nodeId="node-0x338450">
     <command xml:space="preserve">give jar to man</command>
     <result xml:space="preserve">The man smiles at you. &quot;Thank you so much&quot;, he says. &quot;This will be so helpful for my daughter&apos;s science project... Here, let me give you something&quot;
 
@@ -385,16 +385,16 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2805310" />
+      <child nodeId="node-0x3384c0" />
     </children>
   </item>
-  <item nodeId="node-0x2805310">
+  <item nodeId="node-0x3384c0">
     <command xml:space="preserve">take pizza</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="107">YES</temporary>
   </item>
-  <item nodeId="node-0x28052a0">
+  <item nodeId="node-0x338530">
     <command xml:space="preserve">take soda</command>
     <result xml:space="preserve">Taken.
 
@@ -403,10 +403,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>NO</changed>
     <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x2805230" />
+      <child nodeId="node-0x3385a0" />
     </children>
   </item>
-  <item nodeId="node-0x2805230">
+  <item nodeId="node-0x3385a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -417,11 +417,11 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x2805720" />
-      <child nodeId="node-0x28057d0" />
+      <child nodeId="node-0x338610" />
+      <child nodeId="node-0x338d00" />
     </children>
   </item>
-  <item nodeId="node-0x28057d0">
+  <item nodeId="node-0x338d00">
     <command xml:space="preserve">give soda to man</command>
     <result xml:space="preserve">The man smiles at you. &quot;Thank you so much&quot;, he says. &quot;This will be so helpful for my daughter&apos;s science project... Here, let me give you something&quot;
 
@@ -443,7 +443,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="128">YES</temporary>
   </item>
-  <item nodeId="node-0x2805720">
+  <item nodeId="node-0x338610">
     <command xml:space="preserve">give man jar</command>
     <result xml:space="preserve">The man smiles at you. &quot;Thank you so much&quot;, he says. &quot;This will be so helpful for my daughter&apos;s science project... Here, let me give you something&quot;
 
@@ -456,10 +456,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="113">YES</temporary>
     <children>
-      <child nodeId="node-0x2805770" />
+      <child nodeId="node-0x338680" />
     </children>
   </item>
-  <item nodeId="node-0x2805770">
+  <item nodeId="node-0x338680">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -468,7 +468,7 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="112">YES</temporary>
   </item>
-  <item nodeId="node-0x2804f80">
+  <item nodeId="node-0x338d90">
     <command xml:space="preserve">ask man about dog</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -477,10 +477,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2804f10" />
+      <child nodeId="node-0x338e00" />
     </children>
   </item>
-  <item nodeId="node-0x2804f10">
+  <item nodeId="node-0x338e00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -491,10 +491,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2804ea0" />
+      <child nodeId="node-0x32f950" />
     </children>
   </item>
-  <item nodeId="node-0x2804ea0">
+  <item nodeId="node-0x32f950">
     <command xml:space="preserve">ask many about dog</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -503,10 +503,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2804e30" />
+      <child nodeId="node-0x32f9c0" />
     </children>
   </item>
-  <item nodeId="node-0x2804e30">
+  <item nodeId="node-0x32f9c0">
     <command xml:space="preserve">ask man about doug</command>
     <result xml:space="preserve">He doesn&apos;t care about that. The only thing he wants to talk about is his daughter. It&apos;s kind of weird, really.
 
@@ -517,10 +517,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
     <children>
-      <child nodeId="node-0x2804dc0" />
+      <child nodeId="node-0x32fae0" />
     </children>
   </item>
-  <item nodeId="node-0x2804dc0">
+  <item nodeId="node-0x32fae0">
     <command xml:space="preserve">ask man about dog</command>
     <result xml:space="preserve">aloha
 &gt;</result>
@@ -528,7 +528,7 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
   </item>
-  <item nodeId="node-0x2804d50">
+  <item nodeId="node-0x32fb30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -537,12 +537,43 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="24">YES</temporary>
+    <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x2804ce0" />
+      <child nodeId="node-0x32fba0" />
+      <child nodeId="node-0x3b5f30" />
     </children>
   </item>
-  <item nodeId="node-0x2804ce0">
+  <item nodeId="node-0x3b5f30">
+    <command xml:space="preserve">x pizza</command>
+    <result xml:space="preserve">You hate to admit it but the pizza looks better than anything you&apos;ve ever made. The crust is perfectly golden brown. The cheese looks like a work of art. Pesto di Beppo would surely be impressed by this pizza.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x3af3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3af3c0">
+    <command xml:space="preserve">take pizza</command>
+    <result xml:space="preserve">That seems to belong to the middle-aged man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x8c88fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8c88fb0">
+    <command xml:space="preserve">i</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x32fba0">
     <command xml:space="preserve">talk about daughter</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -551,10 +582,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x2804c70" />
+      <child nodeId="node-0x32fc10" />
     </children>
   </item>
-  <item nodeId="node-0x2804c70">
+  <item nodeId="node-0x32fc10">
     <command xml:space="preserve">talk to man</command>
     <result xml:space="preserve">He really isn&apos;t a big fan of talking. He loves answering questions though.
 
@@ -563,10 +594,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x2804c00" />
+      <child nodeId="node-0x32fc80" />
     </children>
   </item>
-  <item nodeId="node-0x2804c00">
+  <item nodeId="node-0x32fc80">
     <command xml:space="preserve">talk about daughter</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -575,10 +606,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x2804b90" />
+      <child nodeId="node-0x32fcf0" />
     </children>
   </item>
-  <item nodeId="node-0x2804b90">
+  <item nodeId="node-0x32fcf0">
     <command xml:space="preserve">ask about daughter</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -587,10 +618,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x2804b20" />
+      <child nodeId="node-0x32eed0" />
     </children>
   </item>
-  <item nodeId="node-0x2804b20">
+  <item nodeId="node-0x32eed0">
     <command xml:space="preserve">ask man about daughter</command>
     <result xml:space="preserve">The man seems distracted... He looks at you. &quot;Can I tell you something?&quot; he asks. Before you can answer he starts talking. &quot;My daughter has this big science project due next week... it&apos;s like a big deal for her. More than anything I just want her to be happy. I really want to help her make a baking soda and vinegar volcano but I can&apos;t find baking soda anywhere. I&apos;d give the person who could get me baking soda anything they ever wanted.
 
@@ -599,10 +630,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x2804ab0" />
+      <child nodeId="node-0x32ef20" />
     </children>
   </item>
-  <item nodeId="node-0x2804ab0">
+  <item nodeId="node-0x32ef20">
     <command xml:space="preserve">give baking soda to man</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -611,7 +642,7 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
   </item>
-  <item nodeId="node-0x2804a40">
+  <item nodeId="node-0x32ef90">
     <command xml:space="preserve">inspect box</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -620,10 +651,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x28049d0" />
+      <child nodeId="node-0x32f000" />
     </children>
   </item>
-  <item nodeId="node-0x28049d0">
+  <item nodeId="node-0x32f000">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">The box is about the size of an old desktop computer. It&apos;s made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh.
 
@@ -632,10 +663,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2804960" />
+      <child nodeId="node-0x32f070" />
     </children>
   </item>
-  <item nodeId="node-0x2804960">
+  <item nodeId="node-0x32f070">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Oh no! You completely forgot that yesterday was National Pizza Day! No wonder the kitchen is so empty! Now, the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
 
@@ -644,10 +675,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x28048f0" />
+      <child nodeId="node-0x32f0e0" />
     </children>
   </item>
-  <item nodeId="node-0x28048f0">
+  <item nodeId="node-0x32f0e0">
     <command xml:space="preserve">take jars</command>
     <result xml:space="preserve">What kind of pizza are you planning to make with empty jars?
 
@@ -656,10 +687,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2804880" />
+      <child nodeId="node-0x32f150" />
     </children>
   </item>
-  <item nodeId="node-0x2804880">
+  <item nodeId="node-0x32f150">
     <command xml:space="preserve">take other jars</command>
     <result xml:space="preserve">What kind of pizza are you planning to make with empty jars?
 
@@ -668,10 +699,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2804fd0" />
+      <child nodeId="node-0x32f6f0" />
     </children>
   </item>
-  <item nodeId="node-0x2804fd0">
+  <item nodeId="node-0x32f6f0">
     <command xml:space="preserve">take baking soda</command>
     <result xml:space="preserve">Taken.
 
@@ -680,10 +711,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2805040" />
+      <child nodeId="node-0x32f760" />
     </children>
   </item>
-  <item nodeId="node-0x2805040">
+  <item nodeId="node-0x32f760">
     <command xml:space="preserve">x baking soda</command>
     <result xml:space="preserve">The jar is filled to the top with baking soda. The only reason you have baking soda in the first place is because the new guy bought baking soda instead of baking powder.
 
@@ -692,10 +723,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x28050b0" />
+      <child nodeId="node-0x32f7d0" />
     </children>
   </item>
-  <item nodeId="node-0x28050b0">
+  <item nodeId="node-0x32f7d0">
     <command xml:space="preserve">open jar</command>
     <result xml:space="preserve">You shouldn&apos;t open the baking soda. Maybe if you keep the container closed you can return it to wherever the new guy bought it from. 
 &gt;</result>
@@ -703,10 +734,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2805120" />
+      <child nodeId="node-0x32f840" />
     </children>
   </item>
-  <item nodeId="node-0x2805120">
+  <item nodeId="node-0x32f840">
     <command xml:space="preserve">x fridge</command>
     <result xml:space="preserve">The fridge is black and tall. It gives off a faint hum.
 
@@ -715,10 +746,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2805190" />
+      <child nodeId="node-0x32f8b0" />
     </children>
   </item>
-  <item nodeId="node-0x2805190">
+  <item nodeId="node-0x32f8b0">
     <command xml:space="preserve">open fridge</command>
     <result xml:space="preserve">You open the fridge to find nothing of interest. Besides a bottle of &quot;Volcano Hot Sauce&quot; and vinegar, everything else had already been used up the day before.
 
@@ -727,10 +758,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2804810" />
+      <child nodeId="node-0x32e8f0" />
     </children>
   </item>
-  <item nodeId="node-0x2804810">
+  <item nodeId="node-0x32e8f0">
     <command xml:space="preserve">take frdige</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -739,10 +770,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x28047a0" />
+      <child nodeId="node-0x32e960" />
     </children>
   </item>
-  <item nodeId="node-0x28047a0">
+  <item nodeId="node-0x32e960">
     <command xml:space="preserve">take fridge</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -751,10 +782,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2804730" />
+      <child nodeId="node-0x32e9d0" />
     </children>
   </item>
-  <item nodeId="node-0x2804730">
+  <item nodeId="node-0x32e9d0">
     <command xml:space="preserve">take hot sauce</command>
     <result xml:space="preserve">The only thing you&apos;d be making with that hot sauce is a bad decision.
 
@@ -763,10 +794,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x28046c0" />
+      <child nodeId="node-0x32ea40" />
     </children>
   </item>
-  <item nodeId="node-0x28046c0">
+  <item nodeId="node-0x32ea40">
     <command xml:space="preserve">take Volcano sauce</command>
     <result xml:space="preserve">The only thing you&apos;d be making with that hot sauce is a bad decision.
 
@@ -775,10 +806,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x2804650" />
+      <child nodeId="node-0x32eab0" />
     </children>
   </item>
-  <item nodeId="node-0x2804650">
+  <item nodeId="node-0x32eab0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a jar of baking soda
@@ -788,10 +819,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x28045e0" />
+      <child nodeId="node-0x32eb20" />
     </children>
   </item>
-  <item nodeId="node-0x28045e0">
+  <item nodeId="node-0x32eb20">
     <command xml:space="preserve">take vinegar</command>
     <result xml:space="preserve">You&apos;d better keep the vinegar refridgerated. Who knows why it&apos;s in the fridge anyway?
 
@@ -800,7 +831,7 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>YES</changed>
     <temporary score="51">YES</temporary>
   </item>
-  <item nodeId="node-0x2804570">
+  <item nodeId="node-0x32eb90">
     <command xml:space="preserve">x fridge</command>
     <result xml:space="preserve">The fridge is black and tall. It gives off a faint hum.
 
@@ -809,10 +840,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804500" />
+      <child nodeId="node-0x32ec00" />
     </children>
   </item>
-  <item nodeId="node-0x2804500">
+  <item nodeId="node-0x32ec00">
     <command xml:space="preserve">open fridge</command>
     <result xml:space="preserve">You open the fridge to find nothing of interest. Besides a bottle of &quot;Volcano Hot Sauce&quot; and vinegar, everything else had already been used up the day before.
 
@@ -821,10 +852,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804490" />
+      <child nodeId="node-0x32ec70" />
     </children>
   </item>
-  <item nodeId="node-0x2804490">
+  <item nodeId="node-0x32ec70">
     <command xml:space="preserve">take fridge</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -833,10 +864,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804420" />
+      <child nodeId="node-0x32e360" />
     </children>
   </item>
-  <item nodeId="node-0x2804420">
+  <item nodeId="node-0x32e360">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Oh no! You completely forgot that yesterday was National Pizza Day! No wonder the kitchen is so empty! Now, the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
 
@@ -845,10 +876,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x28043b0" />
+      <child nodeId="node-0x32e3d0" />
     </children>
   </item>
-  <item nodeId="node-0x28043b0">
+  <item nodeId="node-0x32e3d0">
     <command xml:space="preserve">i baking soda</command>
     <result xml:space="preserve">I only understood you as far as wanting to take inventory.
 
@@ -857,10 +888,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804340" />
+      <child nodeId="node-0x32e440" />
     </children>
   </item>
-  <item nodeId="node-0x2804340">
+  <item nodeId="node-0x32e440">
     <command xml:space="preserve">look at baking soda</command>
     <result xml:space="preserve">The jar is filled to the top with baking soda. The only reason you have baking soda in the first place is because the new guy bought baking soda instead of baking powder.
 
@@ -869,10 +900,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x28042d0" />
+      <child nodeId="node-0x32e4b0" />
     </children>
   </item>
-  <item nodeId="node-0x28042d0">
+  <item nodeId="node-0x32e4b0">
     <command xml:space="preserve">take baking soda</command>
     <result xml:space="preserve">Taken.
 
@@ -881,10 +912,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804260" />
+      <child nodeId="node-0x32e520" />
     </children>
   </item>
-  <item nodeId="node-0x2804260">
+  <item nodeId="node-0x32e520">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -895,10 +926,10 @@ The bedroom is empty. You decided last week that it was time to stop sleeping ne
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x28041f0" />
+      <child nodeId="node-0x32e590" />
     </children>
   </item>
-  <item nodeId="node-0x28041f0">
+  <item nodeId="node-0x32e590">
     <command xml:space="preserve">x poster</command>
     <result xml:space="preserve">The poster, written in large Helvetica font, reads &quot;BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.&quot;
 
@@ -907,10 +938,10 @@ The bedroom is empty. You decided last week that it was time to stop sleeping ne
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804180" />
+      <child nodeId="node-0x32e600" />
     </children>
   </item>
-  <item nodeId="node-0x2804180">
+  <item nodeId="node-0x32e600">
     <command xml:space="preserve">take poster</command>
     <result xml:space="preserve">Just leave it. You can&apos;t have everything. Did you even read the poster?
 
@@ -919,10 +950,10 @@ The bedroom is empty. You decided last week that it was time to stop sleeping ne
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804110" />
+      <child nodeId="node-0x32de30" />
     </children>
   </item>
-  <item nodeId="node-0x2804110">
+  <item nodeId="node-0x32de30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Kitchen
@@ -933,10 +964,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x28040a0" />
+      <child nodeId="node-0x32de80" />
     </children>
   </item>
-  <item nodeId="node-0x28040a0">
+  <item nodeId="node-0x32de80">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Room
@@ -947,10 +978,10 @@ The table is set and ready for Pesto di Beppo&apos;s arrival. Out of the corner 
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2804030" />
+      <child nodeId="node-0x32ded0" />
     </children>
   </item>
-  <item nodeId="node-0x2804030">
+  <item nodeId="node-0x32ded0">
     <command xml:space="preserve">take table</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -959,10 +990,10 @@ The table is set and ready for Pesto di Beppo&apos;s arrival. Out of the corner 
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803fc0" />
+      <child nodeId="node-0x32df40" />
     </children>
   </item>
-  <item nodeId="node-0x2803fc0">
+  <item nodeId="node-0x32df40">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">The table is made of beautiful oak wood. The utensils are perfectly set. You&apos;re scared to even breathe in this room at the risk of messing up the arrangement of the utensils. On the corner of the table is an embarrasing magazine.
 
@@ -971,10 +1002,10 @@ The table is set and ready for Pesto di Beppo&apos;s arrival. Out of the corner 
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803f50" />
+      <child nodeId="node-0x32dfb0" />
     </children>
   </item>
-  <item nodeId="node-0x2803f50">
+  <item nodeId="node-0x32dfb0">
     <command xml:space="preserve">take utensils</command>
     <result xml:space="preserve">You wouldn&apos;t dare to touch the utensils. You&apos;ll surely mess up how nicely they were set.
 
@@ -983,10 +1014,10 @@ The table is set and ready for Pesto di Beppo&apos;s arrival. Out of the corner 
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803ee0" />
+      <child nodeId="node-0x32e020" />
     </children>
   </item>
-  <item nodeId="node-0x2803ee0">
+  <item nodeId="node-0x32e020">
     <command xml:space="preserve">take magazine</command>
     <result xml:space="preserve">Taken.
 
@@ -995,10 +1026,10 @@ The table is set and ready for Pesto di Beppo&apos;s arrival. Out of the corner 
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803e70" />
+      <child nodeId="node-0x32e090" />
     </children>
   </item>
-  <item nodeId="node-0x2803e70">
+  <item nodeId="node-0x32e090">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Kitchen
@@ -1009,10 +1040,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803e00" />
+      <child nodeId="node-0x32e100" />
     </children>
   </item>
-  <item nodeId="node-0x2803e00">
+  <item nodeId="node-0x32e100">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   an embarrasing magazine
@@ -1023,10 +1054,10 @@ Despite being one of the best pizza makers in the country, your kitchen is quite
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803d90" />
+      <child nodeId="node-0x32d9e0" />
     </children>
   </item>
-  <item nodeId="node-0x2803d90">
+  <item nodeId="node-0x32d9e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Store
@@ -1037,10 +1068,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803d20" />
+      <child nodeId="node-0x32da50" />
     </children>
   </item>
-  <item nodeId="node-0x2803d20">
+  <item nodeId="node-0x32da50">
     <command xml:space="preserve">x man</command>
     <result xml:space="preserve">He&apos;s the kind of man that looks like a Father. He&apos;s wearing a shirt that says &quot;Ask Me About My Daughter&quot;
 
@@ -1049,10 +1080,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803cb0" />
+      <child nodeId="node-0x32dac0" />
     </children>
   </item>
-  <item nodeId="node-0x2803cb0">
+  <item nodeId="node-0x32dac0">
     <command xml:space="preserve">ask man about daughter</command>
     <result xml:space="preserve">The man seems distracted... He looks at you. &quot;Can I tell you something?&quot; he asks. Before you can answer he starts talking. &quot;My daughter has this big science project due next week... it&apos;s like a big deal for her. More than anything I just want her to be happy. I really want to help her make a baking soda and vinegar volcano but I can&apos;t find baking soda anywhere. I&apos;d give the person who could get me baking soda anything they ever wanted.
 
@@ -1061,10 +1092,10 @@ A middle-aged man runs the store just north of the Kitchen. Since there are fewe
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803c40" />
+      <child nodeId="node-0x32db30" />
     </children>
   </item>
-  <item nodeId="node-0x2803c40">
+  <item nodeId="node-0x32db30">
     <command xml:space="preserve">give man baking soda</command>
     <result xml:space="preserve">The man smiles at you. &quot;Thank you so much&quot;, he says. &quot;This will be so helpful for my daughter&apos;s science project... Here, let me give you something&quot;
 
@@ -1077,10 +1108,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x2803bd0" />
+      <child nodeId="node-0x32dba0" />
     </children>
   </item>
-  <item nodeId="node-0x2803bd0">
+  <item nodeId="node-0x32dba0">
     <command xml:space="preserve">give man baking soda</command>
     <result xml:space="preserve">The man smiles at you. &quot;Thank you so much&quot;, he says. &quot;This will be so helpful for my daughter&apos;s science project... Here, let me give you something&quot;
 
@@ -1093,7 +1124,7 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="107">YES</temporary>
   </item>
-  <item nodeId="node-0x2803b60">
+  <item nodeId="node-0x32dc10">
     <command xml:space="preserve">x countertop</command>
     <result xml:space="preserve">The countertop is made of shiny black marble. A large box of spices is placed on the countertop.
 
@@ -1102,10 +1133,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>NO</changed>
     <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x2803af0" />
+      <child nodeId="node-0x32dc80" />
     </children>
   </item>
-  <item nodeId="node-0x2803af0">
+  <item nodeId="node-0x32dc80">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">The box is about the size of an old desktop computer. It&apos;s made of cardboard and smells slightly of oregano. The box is closed shut to keep the spices inside fresh.
 
@@ -1114,10 +1145,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>NO</changed>
     <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x2803a80" />
+      <child nodeId="node-0x32dcf0" />
     </children>
   </item>
-  <item nodeId="node-0x2803a80">
+  <item nodeId="node-0x32dcf0">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Oh no! You forgot that yesterday you made fifty pizzas and now the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
 
@@ -1126,7 +1157,7 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="37">YES</temporary>
   </item>
-  <item nodeId="node-0x2803a10">
+  <item nodeId="node-0x32d460">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1135,7 +1166,7 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="129">YES</temporary>
   </item>
-  <item nodeId="node-0x28039a0">
+  <item nodeId="node-0x32d4b0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1144,10 +1175,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>NO</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x2803930" />
+      <child nodeId="node-0x32d520" />
     </children>
   </item>
-  <item nodeId="node-0x2803930">
+  <item nodeId="node-0x32d520">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Oh no! You completely forgot that yesterday was National Pizza Day! No wonder the kitchen is so empty! Now, the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?
 
@@ -1156,10 +1187,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>NO</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x28038c0" />
+      <child nodeId="node-0x32d590" />
     </children>
   </item>
-  <item nodeId="node-0x28038c0">
+  <item nodeId="node-0x32d590">
     <command xml:space="preserve">x baking soda</command>
     <result xml:space="preserve">The jar is almost filled to the top with baking soda. The only reason you have baking soda in the first place is because the new guy bought baking soda instead of baking powder.
 
@@ -1168,10 +1199,10 @@ The man turns and walks to the little oven in the back of the store. He opens it
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x2803850" />
+      <child nodeId="node-0x32d600" />
     </children>
   </item>
-  <item nodeId="node-0x2803850">
+  <item nodeId="node-0x32d600">
     <command xml:space="preserve">open baking soda</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
