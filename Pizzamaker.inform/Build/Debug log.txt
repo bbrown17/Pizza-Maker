@@ -1,5 +1,5 @@
 Debugging log of Inform 7
-Inform called as: /Users/bbrown17/Desktop/Computer Science/Inform.app/Contents/Resources/Compilers/ni -internal /Users/bbrown17/Desktop/Computer Science/Inform.app/Contents/Resources/Internal -external /Users/bbrown17/Library/Inform -project /Users/bbrown17/GitHub/Pizza-Maker/Pizzamaker.inform -format=ulx
+Inform called as: /Users/bbrown17/Desktop/Computer Science/Inform.app/Contents/Resources/Compilers/ni -internal /Users/bbrown17/Desktop/Computer Science/Inform.app/Contents/Resources/Internal -external /Users/bbrown17/Library/Inform -project /Users/bbrown17/GitHub/Pizza-Maker/Pizzamaker.inform -format=ulx -release
 Found language bundle 'English' (from .materials)
 Found language bundle 'French' (from .materials)
 Found language bundle 'German' (from .materials)
@@ -176,7 +176,7 @@ Phase XIII ... Compilation now complete
 
 CAT "A pizza and credit to Brennan Brown"
 Total of 104 files written as streams.
-CPU time: 140 centiseconds
+CPU time: 138 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

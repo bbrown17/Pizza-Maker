@@ -1,6 +1,7 @@
 "Pizza Maker" by Brennan
 
 Release along with cover art ("A pizza and credit to Brennan Brown")
+[cover art code, cover.png should be in materials and not release folder]
 
 [exit list code from Day for Spelling - Mr. Kiang]
 When play begins:
@@ -16,6 +17,8 @@ To say exit list:
 [attacking and going nowhere codes from Day for Spelling - Mr. Kiang]
 
 Instead of going nowhere, say "You start to head in that direction before you realize there's nothing in that direction and turn around."
+
+[non-violence]
 
 Instead of attacking someone:
 say "Before you can even raise a finger, the man pulls out a spatula. With a swift hand he smacks it into your face. 'Don't touch me, you moldy sack of clams!' he shouts."
@@ -39,6 +42,8 @@ The large box of spices is a closed openable container on the countertop. The la
 Instead of taking the large box of spices, say "You'd better leave the actual box in the kitchen... you don't have any time to waste!"
 
 After opening the large box of spices, say "Oh no! You completely forgot that yesterday was National Pizza Day! No wonder the kitchen is so empty! Now, the only jar left in the box is filled with baking soda. What kind of pizza can you make with just baking soda!?"
+
+[this was written just in case users wanted to see everything else]
 
 The jars of other spices is scenery in the large box of spices. It is undescribed. Instead of taking the jars of other spices, say "What kind of pizza are you planning to make with empty jars?"
 

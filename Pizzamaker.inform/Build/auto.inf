@@ -43,7 +43,7 @@ Global Story = BC_0;
 Constant Headline BC_1;
 Constant Story_Author BC_2;
 Release 1;
-Serial "141003";
+Serial "141006";
 
 Default Story 0;
 Default Headline 0;
@@ -38954,7 +38954,7 @@ Verb meta 'tree'
                     ((
                         ((((((formal_par1 ofclass K1_room) && (formal_par1 ofclass K1_room))))) && ((
                         formal_rv = MapConnection(formal_par1,formal_par0)) | 1)
-                        )|| (ArgumentTypeFailed(13))
+                        )|| (ArgumentTypeFailed(14))
 
                     ))
                 +

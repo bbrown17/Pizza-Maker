@@ -6,6 +6,7 @@ status "/Users/bbrown17/Desktop/Computer Science/Inform.app/Contents/Resources/I
 ! Identification
 
 project folder "/Users/bbrown17/GitHub/Pizza-Maker/Pizzamaker.inform"
+release to "/Users/bbrown17/GitHub/Pizza-Maker/Pizzamaker.materials/Release"
 
 ! Blorb instructions
 
