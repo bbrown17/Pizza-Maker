@@ -27,7 +27,7 @@ say "Before you can even raise a finger, the man pulls out a spatula. With a swi
 
 [GOAL: Player searches kitchen, finds no means of making pizza, finds clue in almost every room, gets pizza from the store and wins]
 
-When play begins, say "Mamma mia! The world's most famous pizza chef, Pesto di Beppo, is coming to your restaurant in an hour and you still haven't made the pizza you promised him. You stand in the kitchen wondering what to do. North of the kitchen is a store filled with all kinds of gourmet foods and fancy supplies. West of the kitchen is your bedroom where you used to sleep every night after the restaurant closed. To your east is the dining room where you take special guests to enjoy your latest creations. Behind you is the restaurant, which is closed for the weekend."
+When play begins, say "Mamma mia! The world's most famous pizza chef, Pesto di Beppo, is coming to your restaurant in an hour and you still haven't made the pizza you promised him. You stand in the kitchen wondering what to do. North of the kitchen is a store. West of the kitchen is your bedroom where you used to sleep every night. To your east is the dining room where you take special guests to enjoy your latest creations."
 
 The description of the player is "You are the great-grandson of Raffaele Esposito, the man who many say created pizza."
 
