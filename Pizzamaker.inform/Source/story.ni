@@ -65,11 +65,11 @@ Instead of opening the jar of baking soda, say "You shouldn't open the baking so
 
 The fridge is a closed openable container in The Kitchen. The fridge is scenery. It is undescribed. The description is "The fridge is black and tall. It gives off a faint hum."
 
-After opening the fridge, say "You open the fridge to find nothing of interest. Besides a bottle of 'Volcano Hot Sauce' and vinegar, everything else had already been used up the day before."		
+After opening the fridge, say "You open the fridge to find nothing of interest. Besides a bottle of 'Volcano Hot Sauce' and a bottle of apple juice, everything else had already been used up the day before."		
 
 The bottle of Volcano hot sauce is scenery in the fridge. It is undescribed. The description is "The bottle is half empty. It reads 'VOLCANO BRAND HOT SAUCE: Burn Your Tongue on Purpose!" Instead of taking the bottle of Volcano hot sauce, say "The only thing you'd be making with that hot sauce is a bad decision."
 
-The bottle of vinegar is scenery in the fridge. It is undescribed. The description is "A clear bottle holds vinegar inside. If it wasn't labeled, you'd probably think it was water." Instead of taking the bottle of vinegar, say "You'd better keep the vinegar refrigerated. Who knows why it's in the fridge anyway?"
+The bottle of apple juice is scenery in the fridge. It is undescribed. The description is "A clear bottle holds apple juice inside. The liquid is a light yellow color and smells like apples." Instead of taking the bottle of apple juice, say "You'd better keep the apple juice in the fridge."
 
 [STORE]
 
@@ -83,7 +83,7 @@ Instead of talking something: say "He really isn't a big fan of talking. The man
 
 A middle-aged man is a man in The Store. It is undescribed. The description is "He's the kind of man that looks like a Father. He's wearing a shirt that says 'Ask Me About My Daughter'."
 
-Instead of asking middle-aged man about a topic, say "The man seems distracted... He looks at you. 'Can I tell you something?' he asks. Before you can answer he starts talking. 'My daughter has this big science project due next week... it's like a big deal for her. More than anything I just want her to be happy. I really want to help her make a baking soda and vinegar volcano but I can't find baking soda anywhere. I'd give the person who could get me baking soda anything they ever wanted."
+Instead of asking middle-aged man about a topic, say "The man seems distracted... He looks at you. 'Can I tell you something?' he asks. Before you can answer he starts talking. 'My daughter has this big science project due next week... it's like a big deal for her. More than anything I just want her to be happy. I really want to help her make a baking soda and vinegar volcano. I already have vinegar but I can't find baking soda anywhere. I'd give the person who could get me baking soda anything they ever wanted."
 
 The pizza is carried by the middle-aged man. It is undescribed.The description is "You hate to admit it but the pizza looks better than anything you've ever made. The crust is perfectly golden brown. The cheese looks like a work of art. Pesto di Beppo would surely be impressed by this pizza."
 
@@ -91,9 +91,9 @@ The pizza is carried by the middle-aged man. It is undescribed.The description i
 
 Instead of giving the jar of baking soda to the middle-aged man in The Store: say "The man smiles at you. 'Thank you so much', he says. 'This will be so helpful for my daughter's science project... Here, let me give you something'
 
-The man turns and walks to the little oven in the back of the store. He opens it and pulls out a hot, delcious-looking pizza.
+The man turns and walks to the little oven in the back of the store. He opens it and pulls out a hot, delicious-looking pizza.
 
-'Here you go,' he says. 'Enjoy!'"; end the story finally saying "You did it! You have the perfect pizza to give to Pesto di Beppo. A few minutes later he arrives and begins eating right away. Despite pizza being the only thing served, he didn't complain, because pizza is the only thing he ate anyway. After complimenting the amount of sauce in the pizza, Pesto hands you a check.
+'Here you go,' he says. 'Enjoy!'"; end the story finally saying "You did it! You have the perfect pizza to share with Pesto di Beppo. A few minutes later he arrives and begins eating right away. Despite pizza being the only thing served, he didn't complain, because pizza is the only thing he liked to eat anyway. After complimenting the amount of sauce in the pizza, Pesto hands you a check.
 
 'This is for you', he says. 'Use it to make more pizza.' Pesto di Beppo stands up out of his seat and heads to the door before turning around. He looks at you fondly and says, 'Mama mia, my brother.'"
 [Huge thanks to Mr. Kiang (kiang@me.com) for helping me to code winning the game]
