@@ -1,5 +1,0 @@
-Beta Tester (unfamiliar with Inform)
-
-- tried to look at table in Store
-- table didn’t have description
-- I removed the table because it didn’t serve any purpose anyway

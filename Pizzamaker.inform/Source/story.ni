@@ -101,7 +101,7 @@ The man turns and walks to the little oven in the back of the store. He opens it
 
 [BEDROOM]
 
-The Bedroom is west of the Kitchen and southwest of the Store. "The bedroom is empty. You decided last week that it was time to stop sleeping next to the kitchen and get a real apartment. On the wall hangs a poster that says 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
+The Bedroom is west of the Kitchen. "The bedroom is empty. You decided last week that it was time to stop sleeping next to the kitchen and get a real apartment. On the wall hangs a poster that says 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
 The poster is scenery in The Bedroom. It is undescribed. The description is "The poster, written in large Helvetica font, reads 'BE GENEROUS. HELP SOMEBODY OUT. GIVE WHAT YOU HAVE TO OTHERS.'"
 
@@ -109,9 +109,11 @@ Instead of taking the poster, say "Just leave it. You can't have everything. Did
 
 [DINING ROOM]
 
-The Dining Room is east of the Kitchen and southeast of the Store. "The table is set and ready for Pesto di Beppo's arrival. Out of the corner of your eye you spot an embarrassing magazine laying on the table."
+[Thank you to Cole Damon and Mr. Kiang for the code allowing description change on action]
 
-The table is scenery in The Dining Room. It is undescribed. The description is "The table is made of beautiful oak wood. The utensils are perfectly set. You're scared to even breathe in this room at the risk of messing up the arrangement of the utensils. On the corner of the table is an embarrassing magazine."
+The Dining Room is east of the Kitchen. "[if the player is not carrying the magazine]The table is set and ready for Pesto di Beppo's arrival. Out of the corner of your eye you spot an embarrassing magazine laying on the table.[else if the player is carrying the embarrassing magazine]The table is set and ready for Pesto di Beppo's arrival.[end if]"
+
+The table is scenery in The Dining Room. It is undescribed. The description is "[if the player is not carrying the magazine]The table is made of beautiful oak wood. The utensils are perfectly set. You're scared to even breathe in this room at the risk of messing up the arrangement of the utensils. On the corner of the table is an embarrassing magazine.[else if the player is carrying the magazine]The table is made of beautiful oak wood. The utensils are perfectly set. You're scared to even breathe in this room at the risk of messing up the arrangement of the utensils.[end if]"
 
 The set utensils are scenery on the table. It is undescribed. The description is "The utensils look like art more than something you eat with."
 

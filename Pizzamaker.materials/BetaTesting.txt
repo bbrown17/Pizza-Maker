@@ -1,0 +1,18 @@
+Beta Tester #1 (unfamiliar with Inform)
+
+- Tester tried to look at table in Store
+- The table didn’t have description
+- I removed the table because it didn’t serve any purpose anyway
+- Tester found northwest and southeast confusing. I removed these compound directions so it would be less confusing when navigating in the game.
+
+Beta Tester #2
+
+- Tester tried to talk to man before asking man about something
+- the code I wrote to remind people to ask rather than talk worked well here
+- Tester tried to search kitchen for items that weren’t in the description (the built-in “you can’t see that here” response worked well in this case)
+
+Beta Tester #3
+
+- Tester tried going south despite south not being a labeled exit
+- I added a code in that gave a response when the player tried to go in a nonexistent direction
+- Tester tried to punch a box and got a response that the user should get when they are violent with the man character so I added a code that made the violence response specific to when the action was directed at the man.
